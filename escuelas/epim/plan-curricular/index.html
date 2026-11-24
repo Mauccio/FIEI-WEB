@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#330000">
+  <title>Plan curricular | Ingeniería Mecatrónica | FIEI – UNFV</title>
+  <meta name="description" content="Planes curriculares de Ingeniería Mecatrónica de la FIEI – UNFV.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../../../css/main.css">
+  <script src="../../../js/script.js" defer></script>
+</head>
+<body data-site-root="../../../">
+  <div id="site-header"></div>
+  
+  <main id="contenido-principal" class="page-content">
+    <div class="wrap">
+      
+      <header class="page-heading">
+        <p class="page-kicker">Escuela Profesional de Ingeniería Mecatrónica</p>
+        <h1>Plan curricular</h1>
+        <p class="page-lead">Organización académica y estructura del plan de estudios.</p>
+      </header>
+
+      <div class="school-category-layout">
+        <div class="school-category-content">
+      <section class="content-section" aria-labelledby="section-title">
+        <h2 id="section-title" style="margin-bottom: 1rem; color: #330000;">Planes de Estudio</h2>
+        
+        <p style="margin-bottom: 2rem; font-size: 1.05rem; color: #4a5568; line-height: 1.6;">
+          Consulta los planes curriculares 2019 y 2002 de la Escuela Profesional de Ingeniería Mecatrónica.
+        </p>
+
+        <div id="plans-grid" class="plans-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 2rem; transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);">
+          
+          <article id="card-2019" class="plan-card" style="border: 1px solid #cbd5e1; border-radius: 12px; padding: 1.5rem; background: #f8fafc; box-shadow: 0 2px 4px rgba(0,0,0,0.02); position: relative; max-height: 500px; opacity: 1; transform: translateY(0); transition: max-height 0.6s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s ease, transform 0.5s ease, padding 0.6s ease, margin 0.6s ease, border-width 0.6s ease; overflow: hidden;">
+            <div style="position: absolute; top: 1rem; right: 1rem; background: #7A1C30; color: #ffffff; font-size: 0.7rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 20px; text-transform: uppercase;">
+              Vigente
+            </div>
+            <div style="font-size: 1.75rem; margin-bottom: 0.75rem; color: #7A1C30;">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <span style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: #7A1C30; letter-spacing: 0.05em;">R.R. N° 3952-2018-CU-UNFV</span>
+            <h3 style="margin: 0.5rem 0; font-size: 1.25rem; color: #1e293b;">Plan Curricular 2019</h3>
+            <p style="font-size: 0.95rem; color: #475569; line-height: 1.5; margin-bottom: 1.25rem;">
+              Plan de estudios semestral 2019 de la Escuela Profesional de Ingeniería Mecatrónica.
+            </p>
+            <button id="btn-2019" onclick="togglePlan('2019', '../../../pdf/planes/EPIM_2019.pdf')" style="display: inline-flex; align-items: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.6rem 1.2rem; border-radius: 6px; font-weight: 600; font-size: 0.9rem; cursor: pointer; transition: background 0.3s ease;">
+              <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Plan</span>
+            </button>
+          </article>
+
+          <article id="card-2015" class="plan-card" style="border: 1px solid #cbd5e1; border-radius: 12px; padding: 1.5rem; background: #f8fafc; box-shadow: 0 2px 4px rgba(0,0,0,0.02); position: relative; max-height: 500px; opacity: 1; transform: translateY(0); transition: max-height 0.6s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s ease, transform 0.5s ease, padding 0.6s ease, margin 0.6s ease, border-width 0.6s ease; overflow: hidden;">
+            <div style="font-size: 1.75rem; margin-bottom: 0.75rem; color: #7A1C30;">
+              <i class="fa-solid fa-book-bookmark"></i>
+            </div>
+            <span style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: #64748b; letter-spacing: 0.05em;">Histórico</span>
+            <h3 style="margin: 0.5rem 0; font-size: 1.25rem; color: #1e293b;">Plan Curricular 2002</h3>
+            <p style="font-size: 0.95rem; color: #475569; line-height: 1.5; margin-bottom: 1.25rem;">
+              Plan de estudios anterior de Ingeniería Mecatrónica, disponible para consulta.
+            </p>
+            <button id="btn-2015" onclick="togglePlan('2015', '../../../pdf/planes/EPIM_2002.pdf')" style="display: inline-flex; align-items: center; gap: 0.5rem; background: #475569; color: #ffffff; border: none; padding: 0.6rem 1.2rem; border-radius: 6px; font-weight: 600; font-size: 0.9rem; cursor: pointer; transition: background 0.3s ease;">
+              <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Plan</span>
+            </button>
+          </article>
+
+          </div>
+
+        <div id="pdf-viewer-container" style="max-height: 0; opacity: 0; overflow: hidden; margin-top: 0; transition: max-height 0.7s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s ease 0.2s, margin-top 0.6s ease;">
+          <div class="document-viewer-heading">
+            <h3 id="pdf-title">Plan curricular</h3>
+            <div><a id="pdf-open-link" href="#" target="_blank" rel="noopener">Abrir en otra pestaña</a><button id="close-document" type="button" onclick="closeActivePlan()">Cerrar documento</button></div>
+          </div>
+          <iframe id="pdf-iframe" src="about:blank" title="Plan curricular seleccionado" style="width: 100%; height: 700px; border: 1px solid #cbd5e1; border-radius: 0 0 12px 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);"></iframe>
+        </div>
+
+      </section>
+        </div>
+        <aside class="faculty-quicknav" aria-label="Subcategorías de Ingeniería Mecatrónica">
+          <p class="faculty-quicknav-title">Ingeniería Mecatrónica</p>
+          <nav>
+            <a href="../perfil-profesional/index.html">Perfil profesional</a>
+            <a href="../campo-laboral/index.html">Campo laboral</a>
+            <a aria-current="page" href="../plan-curricular/index.html">Plan curricular</a>
+            <a href="../malla-curricular/index.html">Malla curricular</a>
+            <a href="../silabos/index.html">Sílabos</a>
+          </nav>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script>
+    let activePlanId = null;
+
+    function closeActivePlan() {
+      if (activePlanId) togglePlan(activePlanId, '');
+    }
+
+    function togglePlan(planId, pdfPath) {
+      const grid = document.getElementById('plans-grid');
+      const cards = ['2019', '2015'];
+      const pdfViewer = document.getElementById('pdf-viewer-container');
+      const iframe = document.getElementById('pdf-iframe');
+      const pdfTitle = document.getElementById('pdf-title');
+      const openLink = document.getElementById('pdf-open-link');
+
+      if (activePlanId === planId) {
+        pdfViewer.style.opacity = '0';
+        pdfViewer.style.maxHeight = '0';
+        pdfViewer.style.marginTop = '0';
+
+        setTimeout(() => {
+          iframe.src = 'about:blank';
+          grid.style.gridTemplateColumns = 'repeat(auto-fit, minmax(280px, 1fr))';
+          
+          cards.forEach(id => {
+            const card = document.getElementById(`card-${id}`);
+            const btn = document.getElementById(`btn-${id}`);
+            
+            card.style.maxHeight = '500px';
+            card.style.padding = '1.5rem';
+            card.style.borderWidth = '1px';
+            card.style.opacity = '1';
+            card.style.transform = 'translateY(0)';
+            
+            btn.querySelector('.btn-text').textContent = 'Ver Plan';
+            btn.style.background = (id === '2019') ? '#7A1C30' : '#475569';
+          });
+        }, 300);
+
+        activePlanId = null;
+      } else {
+        pdfTitle.textContent = document.querySelector(`#card-${planId} h3`).textContent;
+        openLink.href = pdfPath;
+        cards.forEach(id => {
+          const card = document.getElementById(`card-${id}`);
+          const btn = document.getElementById(`btn-${id}`);
+          
+          if (id === planId) {
+            card.style.opacity = '1';
+            card.style.transform = 'translateY(0)';
+            card.style.maxHeight = '500px';
+            btn.querySelector('.btn-text').textContent = 'Cerrar Plan';
+            btn.style.background = '#1e293b';
+          } else {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(-10px)';
+            
+            setTimeout(() => {
+              card.style.maxHeight = '0';
+              card.style.padding = '0 1.5rem';
+              card.style.borderWidth = '0';
+            }, 200);
+          }
+        });
+
+        setTimeout(() => {
+          grid.style.gridTemplateColumns = '1fr';
+          iframe.src = pdfPath;
+          pdfViewer.style.marginTop = '1.5rem';
+          pdfViewer.style.maxHeight = '800px';
+          pdfViewer.style.opacity = '1';
+        }, 300);
+
+        activePlanId = planId;
+      }
+    }
+  </script>
+</body>
+</html>

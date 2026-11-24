@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <script src="../mock-api.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6B1B2E">
+  <title>SISCAD | Eventos</title>
+  <link rel="stylesheet" href="../estudiante.css">
+  <script src="../estudiante.js" defer></script>
+</head>
+<body data-page="eventos">
+  <header class="institutional-header">
+  <script src="../mock-api.js"></script>
+    <div class="institutional-header-wrap">
+      <a class="institutional-brand" href="../dashboard/index.html">
+        <img src="../assets-estudiante/fiei_logo.png" alt="FIEI — Facultad de Ingeniería Electrónica e Informática" width="949" height="263">
+      </a>
+    </div>
+  </header>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-copy"><p class="sidebar-title serif">SISCAD</p><p class="sidebar-welcome">Bienvenido, estudiante</p></div>
+        <button class="sidebar-toggle" id="sidebar-toggle" type="button" aria-expanded="true" aria-controls="student-nav" aria-label="Contraer menú" title="Contraer menú">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5m7 7-7-7 7-7"/></svg>
+        </button>
+      </div>
+      <nav class="side-nav" id="student-nav" aria-label="Principal">
+        <a data-page-link="dashboard" aria-label="Inicio" title="Inicio"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-6v-7h-4v7H4a1 1 0 0 1-1-1z"/></svg><span class="nav-label">Inicio</span></a>
+        <a data-page-link="perfil" aria-label="Perfil" title="Perfil"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M5 21a7 7 0 0 1 14 0"/></svg><span class="nav-label">Perfil</span></a>
+        <a data-page-link="cursos" aria-label="Cursos" title="Cursos"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span class="nav-label">Cursos</span></a>
+        <a data-page-link="notas" aria-label="Notas" title="Notas"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13"/><path d="M3 6h.01M3 12h.01M3 18h.01"/></svg><span class="nav-label">Notas</span></a>
+        <a data-page-link="tramites" aria-label="Trámites" title="Trámites"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg><span class="nav-label">Trámites</span></a>
+        <a data-page-link="horario" aria-label="Horario" title="Horario"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span class="nav-label">Horario</span></a>
+      </nav>
+      <a class="sidebar-exit" href="../login/index.html" aria-label="Cerrar sesión" title="Cerrar sesión"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 4h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"/><path d="m13 7-5 2v10l5 2z"/><path d="M3 12h12m-4-4 4 4-4 4"/></svg><span class="nav-label">Cerrar sesión</span></a>
+    </aside>
+    <main class="events-main">
+      <header>
+  <script src="../mock-api.js"></script>
+        <p class="events-eyebrow">Comunidad FIEI</p>
+        <h1>Eventos y novedades</h1>
+        <p class="page-intro">Noticias, actividades y anuncios de interés para la comunidad estudiantil.</p>
+      </header>
+      <article id="featured-event" class="event-featured" aria-live="polite"></article>
+      <section class="events-section" aria-labelledby="events-list-title">
+        <div class="events-section-heading"><div><p class="events-eyebrow">Entérate</p><h2 id="events-list-title">Noticias y actividades</h2></div><a class="events-home-link" href="../dashboard/index.html">Volver al inicio</a></div>
+        <div id="events-grid" class="events-grid"></div>
+      </section>
+    </main>
+    <aside class="notification-panel events-rail" aria-label="Información de eventos">
+      <section class="events-rail-card">
+        <p class="events-eyebrow">SISCAD</p>
+        <h2>Una facultad en movimiento</h2>
+        <p>Consulta aquí actividades académicas, deportivas y culturales dirigidas a la comunidad FIEI.</p>
+      </section>
+      <a class="events-rail-link" href="../dashboard/index.html">Ir a mi panel <span aria-hidden="true">→</span></a>
+    </aside>
+  </div>
+</body>
+</html>

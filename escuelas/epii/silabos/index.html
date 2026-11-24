@@ -1,0 +1,858 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#330000">
+  <title>Sílabos | Ingeniería Informática | FIEI – UNFV</title>
+  <meta name="description" content="Sílabos de Ingeniería Informática en la Facultad de Ingeniería Electrónica e Informática de la UNFV.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../../../css/main.css">
+  <script src="../../../js/script.js" defer></script>
+</head>
+<body data-site-root="../../../">
+  <div id="site-header"></div>
+  
+  <main id="contenido-principal" class="page-content">
+    <div class="wrap">
+      
+      <header class="page-heading">
+        <p class="page-kicker">Escuela Profesional de Ingeniería Informática</p>
+        <h1>Sílabos</h1>
+        <p class="page-lead">Consulta los sílabos de los cursos organizados por semestres académicos.</p>
+      </header>
+
+      <div class="school-category-layout">
+        <div class="school-category-content">
+      <section class="content-section" aria-labelledby="section-title">
+        <h2 id="section-title" style="margin-bottom: 1rem; color: #330000;">Plan Curricular 2019</h2>
+        
+        <p style="margin-bottom: 2rem; font-size: 1.05rem; color: #4a5568; line-height: 1.6;">
+          Accede al contenido académico detallado de cada asignatura según el semestre académico correspondiente.
+        </p>
+
+        <div class="semesters-container" style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 2rem;">
+          
+          <details class="semester-block" style="border: 1px solid #cbd5e1; border-radius: 12px; background: #f8fafc; overflow: hidden; transition: all 0.3s ease;">
+            <summary style="padding: 1.25rem 1.5rem; font-size: 1.15rem; font-weight: 700; color: #1e293b; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none;">
+              <span><i class="fa-solid fa-calendar-check" style="color: #7A1C30; margin-right: 0.75rem;"></i>Primer Semestre</span>
+              <i class="fa-solid fa-chevron-down" style="font-size: 0.9rem; color: #64748b; transition: transform 0.3s ease;"></i>
+            </summary>
+            <div style="padding: 1rem 1.5rem 1.5rem 1.5rem; border-top: 1px solid #e2e8f0; background: #ffffff;">
+              <div class="courses-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100549</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Lenguaje y Comunicación</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100549', '../../../pdf/silabos/100549.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100550</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Filosofía y Ética</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100550', '../../../pdf/silabos/100550.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100551</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Metodología del Trabajo Universitario</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100551', '../../../pdf/silabos/100551.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100552</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Actividades Culturales y Deportivas</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100552', '../../../pdf/silabos/100552.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101007</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Matemática Básica</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101007', '../../../pdf/silabos/101007.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100553</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Fundamentos de Cálculo</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100553', '../../../pdf/silabos/100553.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101008</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Introducción a la Ingeniería Informática</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101008', '../../../pdf/silabos/101008.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100375</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Inglés I</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100375', '../../../pdf/silabos/100375.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+              </div>
+            </div>
+          </details>
+
+          <details class="semester-block" style="border: 1px solid #cbd5e1; border-radius: 12px; background: #f8fafc; overflow: hidden; transition: all 0.3s ease;">
+            <summary style="padding: 1.25rem 1.5rem; font-size: 1.15rem; font-weight: 700; color: #1e293b; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none;">
+              <span><i class="fa-solid fa-calendar-check" style="color: #7A1C30; margin-right: 0.75rem;"></i>Segundo Semestre</span>
+              <i class="fa-solid fa-chevron-down" style="font-size: 0.9rem; color: #64748b; transition: transform 0.3s ease;"></i>
+            </summary>
+            <div style="padding: 1rem 1.5rem 1.5rem 1.5rem; border-top: 1px solid #e2e8f0; background: #ffffff;">
+              <div class="courses-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100555</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Liderazgo y Desarrollo Personal</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100555', '../../../pdf/silabos/100555.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100556</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Medio Ambiente y Desarrollo Sostenible</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100556', '../../../pdf/silabos/100556.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100557</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Tecnologías de la Información y Comunicación</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100557', '../../../pdf/silabos/100557.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100442</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Sociología</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100442', '../../../pdf/silabos/100442.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101009</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Matemática Discreta para Informática</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101009', '../../../pdf/silabos/101009.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100558</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Cálculo Integral</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100558', '../../../pdf/silabos/100558.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100560</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Física</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100560', '../../../pdf/silabos/100560.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100382</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Inglés II</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100382', '../../../pdf/silabos/100382.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+              </div>
+            </div>
+          </details>
+
+          <details class="semester-block" style="border: 1px solid #cbd5e1; border-radius: 12px; background: #f8fafc; overflow: hidden; transition: all 0.3s ease;">
+            <summary style="padding: 1.25rem 1.5rem; font-size: 1.15rem; font-weight: 700; color: #1e293b; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none;">
+              <span><i class="fa-solid fa-calendar-check" style="color: #7A1C30; margin-right: 0.75rem;"></i>Tercer Semestre</span>
+              <i class="fa-solid fa-chevron-down" style="font-size: 0.9rem; color: #64748b; transition: transform 0.3s ease;"></i>
+            </summary>
+            <div style="padding: 1rem 1.5rem 1.5rem 1.5rem; border-top: 1px solid #e2e8f0; background: #ffffff;">
+              <div class="courses-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100003</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Psicología Organizacional</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100003', '../../../pdf/silabos/100003.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 103263</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Estadística</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('103263', '../../../pdf/silabos/103263.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100377</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Metodología de la Investigación Científica</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100377', '../../../pdf/silabos/100377.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100561</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Geopolítica y Realidad Nacional</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100561', '../../../pdf/silabos/100561.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101010</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Lógica Digital</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101010', '../../../pdf/silabos/101010.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101011</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Matemática Aplicada</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101011', '../../../pdf/silabos/101011.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101012</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Lenguaje de Programación I</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101012', '../../../pdf/silabos/101012.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100387</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Inglés III</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100387', '../../../pdf/silabos/100387.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+              </div>
+            </div>
+          </details>
+
+          <details class="semester-block" style="border: 1px solid #cbd5e1; border-radius: 12px; background: #f8fafc; overflow: hidden; transition: all 0.3s ease;">
+            <summary style="padding: 1.25rem 1.5rem; font-size: 1.15rem; font-weight: 700; color: #1e293b; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none;">
+              <span><i class="fa-solid fa-calendar-check" style="color: #7A1C30; margin-right: 0.75rem;"></i>Cuarto Semestre</span>
+              <i class="fa-solid fa-chevron-down" style="font-size: 0.9rem; color: #64748b; transition: transform 0.3s ease;"></i>
+            </summary>
+            <div style="padding: 1rem 1.5rem 1.5rem 1.5rem; border-top: 1px solid #e2e8f0; background: #ffffff;">
+              <div class="courses-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100581</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Métodos Numéricos</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100581', '../../../pdf/silabos/100581.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101013</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Base de Datos I</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101013', '../../../pdf/silabos/101013.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101014</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Teoría de Comunicaciones</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101014', '../../../pdf/silabos/101014.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101015</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Electrónica Digital</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101015', '../../../pdf/silabos/101015.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101016</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Arquitectura y Organización del Computador</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101016', '../../../pdf/silabos/101016.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101017</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Lenguaje de Programación II</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101017', '../../../pdf/silabos/101017.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101018</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Inglés Aplicado a la Informática I</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101018', '../../../pdf/silabos/101018.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+              </div>
+            </div>
+          </details>
+
+          <details class="semester-block" style="border: 1px solid #cbd5e1; border-radius: 12px; background: #f8fafc; overflow: hidden; transition: all 0.3s ease;">
+            <summary style="padding: 1.25rem 1.5rem; font-size: 1.15rem; font-weight: 700; color: #1e293b; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none;">
+              <span><i class="fa-solid fa-calendar-check" style="color: #7A1C30; margin-right: 0.75rem;"></i>Quinto Semestre</span>
+              <i class="fa-solid fa-chevron-down" style="font-size: 0.9rem; color: #64748b; transition: transform 0.3s ease;"></i>
+            </summary>
+            <div style="padding: 1rem 1.5rem 1.5rem 1.5rem; border-top: 1px solid #e2e8f0; background: #ffffff;">
+              <div class="courses-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101019</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Contabilidad y Costos</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101019', '../../../pdf/silabos/101019.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101020</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Base de Datos II</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101020', '../../../pdf/silabos/101020.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101021</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Dispositivos Móviles I</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101021', '../../../pdf/silabos/101021.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100636</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Proyecto Integrador I</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100636', '../../../pdf/silabos/100636.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101022</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Lenguaje de Programación III</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101022', '../../../pdf/silabos/101022.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101023</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Inglés Aplicado a la Informática II</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101023', '../../../pdf/silabos/101023.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+              </div>
+            </div>
+          </details>
+
+          <details class="semester-block" style="border: 1px solid #cbd5e1; border-radius: 12px; background: #f8fafc; overflow: hidden; transition: all 0.3s ease;">
+            <summary style="padding: 1.25rem 1.5rem; font-size: 1.15rem; font-weight: 700; color: #1e293b; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none;">
+              <span><i class="fa-solid fa-calendar-check" style="color: #7A1C30; margin-right: 0.75rem;"></i>Sexto Semestre</span>
+              <i class="fa-solid fa-chevron-down" style="font-size: 0.9rem; color: #64748b; transition: transform 0.3s ease;"></i>
+            </summary>
+            <div style="padding: 1rem 1.5rem 1.5rem 1.5rem; border-top: 1px solid #e2e8f0; background: #ffffff;">
+              <div class="courses-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101024</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Investigación de Operaciones</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101024', '../../../pdf/silabos/101024.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101025</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Gestión y Análisis de Datos e Información</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101025', '../../../pdf/silabos/101025.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101026</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Dispositivos Móviles II</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101026', '../../../pdf/silabos/101026.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100993</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Redes y Conectividad</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100993', '../../../pdf/silabos/100993.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101027</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Teleinformática I</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101027', '../../../pdf/silabos/101027.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101028</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Inglés Aplicado a la Informática III</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101028', '../../../pdf/silabos/101028.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+              </div>
+            </div>
+          </details>
+
+          <details class="semester-block" style="border: 1px solid #cbd5e1; border-radius: 12px; background: #f8fafc; overflow: hidden; transition: all 0.3s ease;">
+            <summary style="padding: 1.25rem 1.5rem; font-size: 1.15rem; font-weight: 700; color: #1e293b; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none;">
+              <span><i class="fa-solid fa-calendar-check" style="color: #7A1C30; margin-right: 0.75rem;"></i>Séptimo Semestre</span>
+              <i class="fa-solid fa-chevron-down" style="font-size: 0.9rem; color: #64748b; transition: transform 0.3s ease;"></i>
+            </summary>
+            <div style="padding: 1rem 1.5rem 1.5rem 1.5rem; border-top: 1px solid #e2e8f0; background: #ffffff;">
+              <div class="courses-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101029</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Ingeniería de Sistemas de Información</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101029', '../../../pdf/silabos/101029.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100908</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Formulación y Evaluación de Proyectos</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100908', '../../../pdf/silabos/100908.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101030</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Proyecto Integrador II</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101030', '../../../pdf/silabos/101030.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101031</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Planeamiento Estratégico de la Información</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101031', '../../../pdf/silabos/101031.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101032</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Ingeniería Económica</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101032', '../../../pdf/silabos/101032.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101033</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Teleinformática II</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101033', '../../../pdf/silabos/101033.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+              </div>
+            </div>
+          </details>
+
+          <details class="semester-block" style="border: 1px solid #cbd5e1; border-radius: 12px; background: #f8fafc; overflow: hidden; transition: all 0.3s ease;">
+            <summary style="padding: 1.25rem 1.5rem; font-size: 1.15rem; font-weight: 700; color: #1e293b; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none;">
+              <span><i class="fa-solid fa-calendar-check" style="color: #7A1C30; margin-right: 0.75rem;"></i>Octavo Semestre</span>
+              <i class="fa-solid fa-chevron-down" style="font-size: 0.9rem; color: #64748b; transition: transform 0.3s ease;"></i>
+            </summary>
+            <div style="padding: 1rem 1.5rem 1.5rem 1.5rem; border-top: 1px solid #e2e8f0; background: #ffffff;">
+              <div class="courses-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101034</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Finanzas para Empresas</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101034', '../../../pdf/silabos/101034.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101035</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Dinámica de Sistemas de Información</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101035', '../../../pdf/silabos/101035.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101036</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Tópicos Avanzados en Programación</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101036', '../../../pdf/silabos/101036.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101037</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Innovación y Tecnología</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101037', '../../../pdf/silabos/101037.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101038</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Sistemas Operativos</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101038', '../../../pdf/silabos/101038.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101039</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Proyectos Informáticos</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101039', '../../../pdf/silabos/101039.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+              </div>
+            </div>
+          </details>
+
+          <details class="semester-block" style="border: 1px solid #cbd5e1; border-radius: 12px; background: #f8fafc; overflow: hidden; transition: all 0.3s ease;">
+            <summary style="padding: 1.25rem 1.5rem; font-size: 1.15rem; font-weight: 700; color: #1e293b; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none;">
+              <span><i class="fa-solid fa-calendar-check" style="color: #7A1C30; margin-right: 0.75rem;"></i>Noveno Semestre</span>
+              <i class="fa-solid fa-chevron-down" style="font-size: 0.9rem; color: #64748b; transition: transform 0.3s ease;"></i>
+            </summary>
+            <div style="padding: 1rem 1.5rem 1.5rem 1.5rem; border-top: 1px solid #e2e8f0; background: #ffffff;">
+              <div class="courses-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101040</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Prospectiva Empresarial</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101040', '../../../pdf/silabos/101040.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101041</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Simulación de Sistemas Informáticos y Empresariales</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101041', '../../../pdf/silabos/101041.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101042</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Control y Calidad de Software</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101042', '../../../pdf/silabos/101042.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101043</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Proyecto Integrador en Dispositivos Móviles</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101043', '../../../pdf/silabos/101043.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101044</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Sistemas de Información Gerencial</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101044', '../../../pdf/silabos/101044.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100597</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Taller de Tesis I</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100597', '../../../pdf/silabos/100597.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100996</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Prácticas Pre Profesionales I</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100996', '../../../pdf/silabos/100996.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+              </div>
+            </div>
+          </details>
+
+          <details class="semester-block" style="border: 1px solid #cbd5e1; border-radius: 12px; background: #f8fafc; overflow: hidden; transition: all 0.3s ease;">
+            <summary style="padding: 1.25rem 1.5rem; font-size: 1.15rem; font-weight: 700; color: #1e293b; cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none;">
+              <span><i class="fa-solid fa-calendar-check" style="color: #7A1C30; margin-right: 0.75rem;"></i>Décimo Semestre</span>
+              <i class="fa-solid fa-chevron-down" style="font-size: 0.9rem; color: #64748b; transition: transform 0.3s ease;"></i>
+            </summary>
+            <div style="padding: 1rem 1.5rem 1.5rem 1.5rem; border-top: 1px solid #e2e8f0; background: #ffffff;">
+              <div class="courses-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101045</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Gerencia y Consultoría Informática</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101045', '../../../pdf/silabos/101045.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101046</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Ingeniería del Conocimiento</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101046', '../../../pdf/silabos/101046.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101047</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Seguridad y Auditoría Informática</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101047', '../../../pdf/silabos/101047.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101048</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Tecnologías Emergentes</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101048', '../../../pdf/silabos/101048.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101049</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Tecnología E-Business</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101049', '../../../pdf/silabos/101049.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 100603</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Taller de Tesis II</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('100603', '../../../pdf/silabos/100603.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+                <article class="course-card" style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; background: #f8fafc; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <span style="font-size: 0.75rem; font-weight: 700; color: #7A1C30;">Código: 101003</span>
+                    <h4 style="margin: 0.25rem 0 0.75rem 0; font-size: 1rem; color: #1e293b;">Prácticas Pre Profesionales II</h4>
+                  </div>
+                  <button onclick="toggleSyllabus('101003', '../../../pdf/silabos/101003.pdf', this)" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: #7A1C30; color: #ffffff; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; width: 100%; transition: background 0.3s ease;">
+                    <i class="fa-solid fa-file-pdf"></i> <span class="btn-text">Ver Sílabo</span>
+                  </button>
+                </article>
+              </div>
+            </div>
+          </details>
+
+        </div>
+
+        <div id="pdf-viewer-container" style="display: none; opacity: 0; margin-top: 2rem; transition: opacity 0.5s ease;">
+          <div class="document-viewer-heading">
+            <h3 id="pdf-title">Sílabo seleccionado</h3>
+            <div><a id="pdf-open-link" href="#" target="_blank" rel="noopener">Abrir en otra pestaña</a><button id="close-document" type="button" onclick="closeSyllabusViewer()">Cerrar documento</button></div>
+          </div>
+          <iframe id="pdf-iframe" src="about:blank" title="Sílabo seleccionado" style="width: 100%; height: 750px; border: 1px solid #cbd5e1; border-radius: 0 0 12px 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);"></iframe>
+        </div>
+
+      </section>
+        </div>
+        <aside class="faculty-quicknav" aria-label="Subcategorías de Ingeniería Informática">
+          <p class="faculty-quicknav-title">Ingeniería Informática</p>
+          <nav>
+            <a href="../perfil-profesional/index.html">Perfil profesional</a>
+            <a href="../campo-laboral/index.html">Campo laboral</a>
+            <a href="../plan-curricular/index.html">Plan curricular</a>
+            <a href="../malla-curricular/index.html">Malla curricular</a>
+            <a aria-current="page" href="../silabos/index.html">Sílabos</a>
+          </nav>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script>
+    let activeCourseCode = null;
+    let activeBtn = null;
+
+    function toggleSyllabus(courseCode, pdfPath, btnElement) {
+      const pdfViewer = document.getElementById('pdf-viewer-container');
+      const iframe = document.getElementById('pdf-iframe');
+      const pdfTitle = document.getElementById('pdf-title');
+      const openLink = document.getElementById('pdf-open-link');
+
+      if (activeCourseCode === courseCode) {
+        closeSyllabusViewer();
+      } else {
+        if (activeBtn) {
+          activeBtn.querySelector('.btn-text').textContent = 'Ver Sílabo';
+          activeBtn.style.background = '#7A1C30';
+        }
+
+        btnElement.querySelector('.btn-text').textContent = 'Cerrar Sílabo';
+        btnElement.style.background = '#1e293b';
+
+        iframe.src = pdfPath;
+        openLink.href = pdfPath;
+        const courseName = btnElement.parentElement.querySelector('h4').textContent;
+        pdfTitle.textContent = `Sílabo: ${courseName} (${courseCode})`;
+
+        pdfViewer.style.display = 'block';
+        setTimeout(() => {
+          pdfViewer.style.opacity = '1';
+          pdfViewer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 50);
+
+        activeCourseCode = courseCode;
+        activeBtn = btnElement;
+      }
+    }
+
+    function closeSyllabusViewer() {
+      const pdfViewer = document.getElementById('pdf-viewer-container');
+      const iframe = document.getElementById('pdf-iframe');
+      const openLink = document.getElementById('pdf-open-link');
+
+      pdfViewer.style.opacity = '0';
+      setTimeout(() => {
+        pdfViewer.style.display = 'none';
+        iframe.src = 'about:blank';
+        openLink.href = '#';
+      }, 300);
+
+      if (activeBtn) {
+        activeBtn.querySelector('.btn-text').textContent = 'Ver Sílabo';
+        activeBtn.style.background = '#7A1C30';
+      }
+
+      activeCourseCode = null;
+      activeBtn = null;
+    }
+  </script>
+  <script src="../../../js/syllabus-availability.js"></script>
+</body>
+</html>

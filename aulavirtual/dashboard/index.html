@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <script src="../mock-api.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6B1B2E">
+  <title>SISCAD | Mis cursos y notas</title>
+  <link rel="stylesheet" href="../estudiante.css">
+  <script src="../estudiante.js" defer></script>
+</head>
+<body data-page="dashboard">
+  <header class="institutional-header">
+  <div class="institutional-header-wrap"><a class="institutional-brand" href="../dashboard/index.html"><img src="../assets-estudiante/fiei_logo.png" alt="FIEI — Facultad de Ingeniería Electrónica e Informática" width="949" height="263"></a></div></header>
+  <div class="app-shell">
+    <aside class="sidebar"><div class="sidebar-header"><div class="sidebar-copy"><p class="sidebar-title serif">SISCAD</p><p class="sidebar-welcome">Bienvenido, Mauricio Fonseca</p></div>
+      <button class="sidebar-toggle" id="sidebar-toggle" type="button" aria-expanded="true" aria-controls="student-nav" aria-label="Contraer menú" title="Contraer menú"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5m7 7-7-7 7-7"/></svg></button>
+      </div>
+      <nav class="side-nav" id="student-nav" aria-label="Principal">
+        <a data-page-link="dashboard" aria-label="Inicio" title="Inicio"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-6v-7h-4v7H4a1 1 0 0 1-1-1z"/></svg><span class="nav-label">Inicio</span></a>
+        <a data-page-link="perfil" aria-label="Perfil" title="Perfil"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M5 21a7 7 0 0 1 14 0"/></svg><span class="nav-label">Perfil</span></a>
+        <a data-page-link="cursos" aria-label="Cursos" title="Cursos"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span class="nav-label">Cursos</span></a>
+        <a data-page-link="notas" aria-label="Notas" title="Notas"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13"/><path d="M3 6h.01M3 12h.01M3 18h.01"/></svg><span class="nav-label">Notas</span></a>
+        <a data-page-link="tramites" aria-label="Trámites" title="Trámites"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg><span class="nav-label">Trámites</span></a>
+        <a data-page-link="horario" aria-label="Horario" title="Horario"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span class="nav-label">Horario</span></a>
+      </nav>
+      <a class="sidebar-exit" href="../login/index.html" aria-label="Cerrar sesión" title="Cerrar sesión"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 4h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"/><path d="m13 7-5 2v10l5 2z"/><path d="M3 12h12m-4-4 4 4-4 4"/></svg><span class="nav-label">Cerrar sesión</span></a>
+    </aside>
+    <main>
+      <header>
+  <h1>Bienvenido</h1><p class="page-intro"><span data-current-user>Mauricio Sebastián Fonseca Pizarro</span>, código <span data-current-code>2025024891</span>. Estás en el II ciclo del semestre 2026-II.</p></header>
+      <section class="announcement-banner" aria-label="Avisos y anuncios de la facultad">
+        <span class="announcement-symbol" aria-hidden="true">!</span>
+        <div><p class="announcement-kicker">Aviso de la facultad</p><p>Convocatoria: proceso de ratificación de docentes ordinarios 2026.</p></div>
+        <span class="announcement-tag">FIEI</span>
+      </section>
+      <br>
+      <h2 class="visually-hidden">Resumen académico</h2>
+      <section class="summary-grid" aria-label="Resumen académico">
+        <article class="summary-card"><span class="summary-label">Cursos activos</span><strong>8</strong><a href="../cursos/index.html">Ver cursos</a></article>
+        <article class="summary-card"><span class="summary-label">Promedio actual</span><strong>13.7</strong><a href="../notas/index.html">Consultar notas</a></article>
+        <article class="summary-card"><span class="summary-label">Trámites en curso</span><strong>2</strong><a href="../tramites/index.html">Ver trámites</a></article>
+      </section>
+      <div class="content-stack">
+        <section aria-labelledby="titulo-notas"><h2 id="titulo-notas">Promedios finales</h2><p class="section-note">La nota mínima para aprobar es 11. Los guiones son evaluaciones que aún no se rinden.</p>
+          <!---
+          <div class="table-wrap"><table><thead><tr><th scope="col">Curso</th><th class="numeric" scope="col">PC1</th><th class="numeric" scope="col">PC2</th><th class="numeric" scope="col">Parcial</th><th class="numeric" scope="col">Final</th><th class="numeric" scope="col">Promedio</th></tr></thead><tbody>
+            <tr><th scope="row"><span class="course-name">Física</span></th><td class="numeric">14</td><td class="numeric">16</td><td class="numeric">15</td><td class="numeric">–</td><td class="average">15.0</td></tr>
+            <tr><th scope="row"><span class="course-name">Inglés II</span></th><td class="numeric">12</td><td class="numeric" style="color:#7B1E35;font-weight:700">9</td><td class="numeric">13</td><td class="numeric">–</td><td class="average">11.3</td></tr>
+            <tr><th scope="row"><span class="course-name">Sociología</span></th><td class="numeric">17</td><td class="numeric">15</td><td class="numeric">–</td><td class="numeric">–</td><td class="average">16.0</td></tr>
+            <tr><th scope="row"><span class="course-name">Liderazgo y desarrollo personal</span></th><td class="numeric" style="color:#7B1E35;font-weight:700">10</td><td class="numeric">12</td><td class="numeric">11</td><td class="numeric">–</td><td class="average">11.0</td></tr>
+            <tr><th scope="row"><span class="course-name">Medio ambiente y desarrollo sostenible</span></th><td class="numeric">15</td><td class="numeric">14</td><td class="numeric">16</td><td class="numeric">–</td><td class="average">15.0</td></tr>
+            <tr><th scope="row"><span class="course-name">Cálculo integral</span></th><td class="numeric">–</td><td class="numeric">–</td><td class="numeric">–</td><td class="numeric">–</td><td class="average">–</td></tr>
+            <tr><th scope="row"><span class="course-name">Matemática discreta para informática</span></th><td class="numeric">–</td><td class="numeric">–</td><td class="numeric">–</td><td class="numeric">–</td><td class="average">–</td></tr>
+            <tr><th scope="row"><span class="course-name">Tecnologías de la información y comunicación</span></th><td class="numeric">–</td><td class="numeric">–</td><td class="numeric">–</td><td class="numeric">–</td><td class="average">–</td></tr>
+          </tbody></table></div>-->
+          <article class="summary-card"><span class="summary-label"><strong>Física</strong></span><strong>15.0</strong><a href="../notas/index.html">Detalles</a></article>
+          <article class="summary-card"><span class="summary-label"><strong>Inglés II</strong></span><strong>11.3</strong><a href="../notas/index.html">Detalles</a></article>
+          <article class="summary-card"><span class="summary-label"><strong>Sociología</strong></span><strong>16.0</strong><a href="../notas/index.html">Detalles</a></article>
+          <article class="summary-card"><span class="summary-label"><strong>Liderazgo y desarrollo personal</strong></span><strong>11.0</strong><a href="../notas/index.html">Detalles</a></article>
+          <article class="summary-card"><span class="summary-label"><strong>Medio ambiente y desarrollo sostenible</strong></span><strong>15.0</strong><a href="../notas/index.html">Detalles</a></article>
+          <article class="summary-card"><span class="summary-label"><strong>Cálculo integral</strong></span><strong>–</strong><a href="../notas/index.html">Detalles</a></article>
+          <article class="summary-card"><span class="summary-label"><strong>Matemática discreta para informática</strong></span><strong>–</strong><a href="../notas/index.html">Detalles</a></article>
+          <article class="summary-card"><span class="summary-label"><strong>Tecnologías de la información y comunicación</strong></span><strong>–</strong><a href="../notas/index.html">Detalles</a></article>
+        
+        </section>
+        <div class="below-grid">
+          <section aria-labelledby="titulo-tramites"><h2 id="titulo-tramites">Mis trámites</h2><ul class="status-list">
+            <li><span class="status-dot status-ok" aria-hidden="true"></span><div><strong>Constancia de estudios</strong><br><span class="subtle">Lista para recoger</span></div></li>
+            <li><span class="status-dot status-wait" aria-hidden="true"></span><div><strong>Reserva de matrícula</strong><br><span class="subtle">En revisión</span></div></li>
+            <li><span class="status-dot status-alert" aria-hidden="true"></span><div><strong>Convalidación de curso</strong><br><span class="subtle">Falta un documento</span></div></li>
+          </ul><a class="button-link" href="#">Iniciar un trámite</a></section>
+          <section aria-labelledby="titulo-fechas"><h2 id="titulo-fechas">Próximas fechas</h2><ul class="date-list"><li><strong>23 oct</strong><span class="subtle">Entrega de proyecto académico</span></li><li><strong>28 oct</strong><span class="subtle">Evaluación parcial del semestre</span></li><li><strong>04 nov</strong><span class="subtle">Último día para reserva de matrícula</span></li></ul></section>
+        </div>
+      </div>
+    </main>
+    <aside class="notification-panel" aria-labelledby="titulo-notificaciones"><div><h2 id="titulo-notificaciones">Notificaciones</h2><p class="section-note" data-unread-count></p><ul class="notification-list">
+      <li data-new="true"><span class="unread-dot" aria-hidden="true"></span><div><p><strong>Se publicó tu nota de la PC2 en Física</strong></p><p class="subtle">Hace 2 horas</p></div></li>
+      <li data-new="true"><span class="unread-dot" aria-hidden="true"></span><div><p><strong>Tu constancia de estudios está lista para recoger</strong></p><p class="subtle">Ayer</p></div></li>
+      <li data-new="false"><span class="unread-dot read" aria-hidden="true"></span><div><p>Falta un documento en tu convalidación de curso</p><p class="subtle">Hace 2 días</p></div></li>
+      <li data-new="false"><span class="unread-dot read" aria-hidden="true"></span><div><p>La reserva de matrícula cierra el 4 de noviembre</p><p class="subtle">18 oct</p></div></li>
+    </ul><a class="text-link" href="#">Ver todas las notificaciones</a></div></aside>
+  </div>
+</body>
+</html>

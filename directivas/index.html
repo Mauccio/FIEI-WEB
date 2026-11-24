@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#330000">
+  <title>Directivas y Reglamentos | FIEI – UNFV</title>
+  <meta name="description" content="Consulta directivas y reglamentos de la Universidad Nacional Federico Villarreal.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="../js/script.js" defer></script>
+  <script src="directivas.js" defer></script>
+</head>
+<body data-site-root="../">
+  <div id="site-header"></div>
+  <main id="contenido-principal" class="page-content directives-page">
+    <div class="wrap">
+      <header class="page-heading">
+        <p class="page-kicker">FIEI · UNFV</p>
+        <h1>Directivas y Reglamentos</h1>
+        <p class="page-lead">Consulta los reglamentos institucionales relacionados con estudiantes, docentes y servidores civiles.</p>
+      </header>
+
+      <section class="directives-section" aria-labelledby="directives-title">
+        <h2 id="directives-title">Documentos institucionales</h2>
+        <p class="directives-note">Selecciona “Ver documento” para leer el PDF sin salir de esta página.</p>
+        <div class="directives-table-wrap" tabindex="0" aria-label="Tabla de directivas; desplázate horizontalmente en pantallas pequeñas">
+          <table class="directives-table">
+            <thead>
+              <tr><th scope="col">N.º de Resolución y/o Directiva</th><th scope="col">Denominación</th><th scope="col">Documento</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Resolución Rectoral N.º 5730-2019-CU-UNFV</td>
+                <td>Reglamento de asistencias y permanencia del personal docente de la UNFV</td>
+                <td><button class="document-button" type="button" data-document="../pdf/silabos/08_reglamento_asistencia_permanencia_docentes_unfv.pdf" data-title="Reglamento de asistencia y permanencia docente" aria-expanded="false" aria-controls="pdf-viewer-container"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i> Ver documento</button></td>
+              </tr>
+              <tr>
+                <td>Resolución Rectoral N.º 5339-2019-CU-UNFV</td>
+                <td>Reglamento de evaluación del desempeño docente en las actividades de carga académica lectiva y no lectiva</td>
+                <td><button class="document-button" type="button" data-document="../pdf/silabos/07_reglamento_desempeo_docente_carga_lectiva_nolectiva.pdf" data-title="Reglamento de desempeño docente y carga académica" aria-expanded="false" aria-controls="pdf-viewer-container"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i> Ver documento</button></td>
+              </tr>
+              <tr>
+                <td>Resolución Rectoral N.º 4800-2019-CU-UNFV</td>
+                <td>Reglamento del Régimen Disciplinario y Procedimiento Sancionador para Estudiantes de la UNFV</td>
+                <td><button class="document-button" type="button" data-document="../pdf/silabos/03_reglamento_procedimiento_disciplinario_sancionador_estudiantes.pdf" data-title="Reglamento disciplinario y sancionador para estudiantes" aria-expanded="false" aria-controls="pdf-viewer-container"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i> Ver documento</button></td>
+              </tr>
+              <tr>
+                <td>Resolución Rectoral N.º 4801-2019-CU-UNFV</td>
+                <td>Reglamento del Régimen Disciplinario y Procedimiento Sancionador para Docentes de la UNFV</td>
+                <td><button class="document-button" type="button" data-document="../pdf/silabos/04_reglamento_procedimiento_disciplinario_sancionador_docentes.pdf" data-title="Reglamento disciplinario y sancionador para docentes" aria-expanded="false" aria-controls="pdf-viewer-container"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i> Ver documento</button></td>
+              </tr>
+              <tr>
+                <td>Resolución Rectoral N.º 4802-2019-CU-UNFV</td>
+                <td>Reglamento del Régimen Disciplinario y Procedimiento Sancionador para Servidores Civiles de la UNFV</td>
+                <td><button class="document-button" type="button" data-document="../pdf/silabos/05_reglamento_procedimiento_discipliario_sancionador_servidores_civiles.pdf" data-title="Reglamento disciplinario y sancionador para servidores civiles" aria-expanded="false" aria-controls="pdf-viewer-container"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i> Ver documento</button></td>
+              </tr>
+              <tr>
+                <td>Resolución Rectoral N.º 2927-2018-CU-UNFV</td>
+                <td>Reglamento de Prácticas Preprofesionales</td>
+                <td><button class="document-button" type="button" data-document="../pdf/silabos/02_reglamento_practicas_pre_profesionales.pdf" data-title="Reglamento de prácticas preprofesionales" aria-expanded="false" aria-controls="pdf-viewer-container"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i> Ver documento</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <section id="pdf-viewer-container" class="document-viewer" aria-label="Visor del documento seleccionado" aria-hidden="true">
+          <div class="document-viewer-heading">
+            <h3 id="pdf-viewer-title">Documento seleccionado</h3>
+            <div><a id="pdf-download" href="#" target="_blank" rel="noopener">Abrir en otra pestaña</a><button id="close-document" type="button">Cerrar documento</button></div>
+          </div>
+          <iframe id="pdf-iframe" src="about:blank" title="Documento PDF seleccionado" loading="lazy"></iframe>
+        </section>
+      </section>
+    </div>
+  </main>
+  <div id="site-footer"></div>
+</body>
+</html>

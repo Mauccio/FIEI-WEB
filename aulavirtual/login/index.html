@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <script src="../mock-api.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6B1B2E">
+  <title>SISCAD | Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <main class="login-page">
+    <section class="login-card" aria-labelledby="login-title">
+      <header class="login-heading">
+        <div class="logos" aria-label="Universidad Nacional Federico Villarreal y FIEI">
+          <img src="img/fiei_logo_claro.png" alt="Logo de la Facultad de Ingeniería Electrónica e Informática" class="institution-logo">
+          <span class="logo-divider" aria-hidden="true"></span>
+          <img src="img/siscad_logo.png" alt="Logo de la Facultad de Ingeniería Electrónica e Informática" class="institution-logo">
+        </div>
+        <h1 id="login-title">Login</h1>
+        <p>Sistema de Control Académico Digital</p>
+      </header>
+
+      <form id="login-form" class="login-form">
+        <div class="field">
+          <label for="codigo">Código de usuario</label>
+          <input id="codigo" name="codigo" type="text" inputmode="numeric" autocomplete="username" placeholder="2026012345" required>
+        </div>
+
+        <div class="field">
+          <label for="clave">Contraseña</label>
+          <div class="password-field">
+            <input id="clave" name="clave" type="password" autocomplete="current-password" required>
+            <button id="toggle-password" class="toggle-password" type="button" aria-controls="clave" aria-pressed="false">Mostrar</button>
+          </div>
+        </div>
+
+        <button class="submit-button" type="submit">Ingresar</button>
+        <p id="login-feedback" class="login-feedback" role="alert" aria-live="polite"></p>
+      </form>
+
+      <p class="forgot-password"><a href="#">Olvidé mi contraseña</a></p>
+      <a href="../../index.html" class="return-link">
+        <button class="return-button" type="button" aria-label="Salir" title="Salir">
+        <i class="fa-solid fa-arrow-right-from-bracket" aria-hidden="true"></i>
+        </button>
+      </a>
+    </section>
+  </main>
+</body>
+</html>

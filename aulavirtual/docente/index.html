@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <script src="../mock-api.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6B1B2E">
+  <title>SISCAD | Portal docente</title>
+  <link rel="stylesheet" href="../estudiante.css">
+  <link rel="stylesheet" href="docente.css">
+  <script src="docente.js" defer></script>
+</head>
+<body data-page="docente">
+  <header class="institutional-header">
+  <script src="../mock-api.js"></script>
+    <div class="institutional-header-wrap">
+      <a class="institutional-brand" href="../dashboard/index.html"><img src="../assets-estudiante/fiei_logo.png" alt="FIEI — Facultad de Ingeniería Electrónica e Informática"></a>
+      <span class="portal-role">PORTAL DOCENTE</span>
+    </div>
+  </header>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="sidebar-header"><div class="sidebar-copy"><p class="sidebar-title serif">SISCAD</p><p class="sidebar-welcome">Área docente</p></div>
+        <button class="sidebar-toggle" id="sidebar-toggle" type="button" aria-expanded="true" aria-controls="teacher-nav" aria-label="Contraer menú" title="Contraer menú"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5m7 7-7-7 7-7"/></svg></button>
+      </div>
+      <nav class="side-nav" id="teacher-nav" aria-label="Principal">
+        <a href="index.html" data-section="inicio"><span class="nav-icon">⌂</span><span class="nav-label">Inicio</span></a>
+        <a href="cursos.html" data-section="cursos"><span class="nav-icon">▤</span><span class="nav-label">Mis cursos</span></a>
+        <a href="asistencia.html" data-section="asistencia"><span class="nav-icon">✓</span><span class="nav-label">Asistencia</span></a>
+        <a href="calificaciones.html" data-section="calificaciones"><span class="nav-icon">▦</span><span class="nav-label">Calificaciones</span></a>
+        <a href="materiales.html" data-section="materiales"><span class="nav-icon">▧</span><span class="nav-label">Materiales</span></a>
+        <a href="agenda.html" data-section="agenda"><span class="nav-icon">▣</span><span class="nav-label">Agenda</span></a>
+      </nav>
+      <a class="sidebar-exit" href="../login/index.html" aria-label="Cerrar sesión" title="Cerrar sesión"><span aria-hidden="true">↪</span><span class="nav-label">Cerrar sesión</span></a>
+    </aside>
+    <main>
+      <header>
+  <script src="../mock-api.js"></script><h1>Buen día, docente</h1><p class="page-intro" data-page-intro>Este es el resumen de tu actividad académica.</p></header>
+      <section class="summary-grid teacher-summary" aria-label="Resumen académico">
+        <article class="summary-card"><span class="summary-label">Cursos asignados</span><strong data-teacher-course-count>—</strong><a href="cursos.html">Ver cursos</a></article>
+        <article class="summary-card"><span class="summary-label">Estudiantes matriculados</span><strong data-teacher-student-count>—</strong><a href="cursos.html">Ver secciones</a></article>
+        <article class="summary-card"><span class="summary-label">Listas oficiales pendientes</span><strong data-teacher-roster-pending>—</strong><a href="cursos.html">Ver cursos</a></article>
+      </section>
+      <section class="page-panel teacher-welcome-panel"><p class="eyebrow">PORTAL DOCENTE</p><h2>Gestión de tus cursos</h2><p class="section-note">Desde el menú lateral puedes abrir tus cursos, gestionar calificaciones, asistencia, materiales y agenda. Aquí solo se mostrarán las secciones que administración te asigne.</p><a class="button-link" href="cursos.html">Abrir mis cursos</a></section>
+    </main>
+    <aside class="notification-panel admin-help"><div><h2>Periodo académico</h2><p class="section-note" data-current-term>Se determinará según tus cursos asignados.</p><h2>Información</h2><p class="section-note">Los datos de tus secciones provienen de la asignación de administración.</p></div></aside>
+  </div>
+</body>
+</html>

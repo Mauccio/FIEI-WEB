@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <script src="../../mock-api.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>SISCAD | Cursos</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Schibsted+Grotesk:wght@600;700;800&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="page">
+
+    <div class="topbar">
+      <span class="unfv"><img src="img/unfv_logo.png" alt="Logo" width="300px"></span>
+      <span class="fiei"><img src="img/fiei_logo.png" alt="Logo" width="300px"></span>
+    </div>
+
+    <nav>
+      <button type="button" id="nav-home"><a href="../inicio/index.html">Inicio</a></button>
+      <button type="button" id="nav-profile"><a href="../perfil/index.html">Mi perfil</a></button>
+      <button type="button" id="nav-courses"><a href="../cursos/index.html">Mis cursos</a></button>
+      <button type="button" id="nav-notes"><a href="../notas/index.html">Mis notas</a></button>
+    </nav>
+
+    <header class="hero">
+  <script src="../../mock-api.js"></script>
+      <div class="avatar" id="avatar" aria-hidden="true"><img src="img/avatar.png" alt="Avatar" width="76px"
+          height="76px"></div>
+      <div class="who">
+        <p class="eyebrow" id="term-label">Cargando</p>
+        <h1 id="student-name">Estudiante</h1>
+        <p class="meta" id="student-meta"></p>
+        <p class="mail" id="student-email"></p>
+      </div>
+    </header>
+
+    <section class="kpis" aria-label="Resumen académico">
+      <div class="kpi">
+        <span class="label">Promedio ponderado</span>
+        <span class="value" id="kpi-gpa">—</span>
+        <span class="note">Escala de 0 a 20</span>
+      </div>
+      <div class="kpi">
+        <span class="label">Créditos aprobados</span>
+        <span class="value" id="kpi-credits">—</span>
+        <span class="note">En este ciclo</span>
+      </div>
+      <div class="kpi">
+        <span class="label">Cursos aprobados</span>
+        <span class="value" id="kpi-courses">—</span>
+        <span class="note" id="kpi-courses-note"></span>
+      </div>
+      <div class="kpi">
+        <span class="label">Avance de la carrera</span>
+        <span class="value" id="kpi-progress">—</span>
+        <span id="kpi-meter"></span>
+        <span class="note" id="kpi-progress-note"></span>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2 id="table-title">Notas</h2>
+      <p class="sub" id="table-note"></p>
+      <div class="tbl">
+        <table>
+          <thead>
+            <tr>
+              <th>Curso</th>
+              <th class="n">Créd.</th>
+              <th class="n">Práctica</th>
+              <th class="n">Parcial</th>
+              <th class="n">Final</th>
+              <th class="n">Promedio</th>
+              <th>Estado</th>
+            </tr>
+          </thead>
+          <tbody id="course-rows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <div class="two">
+      <section class="panel">
+        <h2>Promedio por ciclo</h2>
+        <p class="sub">Promedio ponderado de cada ciclo, en escala de 0 a 20.</p>
+        <div class="cols" id="cycle-chart"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Estado administrativo</h2>
+        <ul class="flags" id="flag-list"></ul>
+      </section>
+    </div>
+
+    <p class="foot"><center>&copy;  UNFV - FIEI | Todos los derechos reservados</center></p>
+
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

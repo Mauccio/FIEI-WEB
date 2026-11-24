@@ -1,0 +1,36 @@
+# Dependencias y archivos generados
+node_modules/
+**/node_modules/
+dist/
+build/
+coverage/
+
+# Configuración local y credenciales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Datos locales del backend (incluye cuentas y matrículas de prueba)
+aulavirtual/backend/data/*.sqlite
+aulavirtual/backend/data/*.sqlite3
+aulavirtual/backend/data/*.db
+**/*.sqlite
+**/*.sqlite3
+**/*.db
+
+# Sistema operativo y editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Archivos comprimidos duplicados del prototipo TIC
+aulavirtual-tic.zip
+aulavirtual-tic.7z
+NetlifyFIEI/netlify.zip
+
+# Ejecutables y controladores ajenos al sitio web
+*.exe

@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <script src="../mock-api.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6B1B2E">
+  <title>SISCAD | Notas</title>
+  <link rel="stylesheet" href="../estudiante.css">
+  <script src="../estudiante.js" defer></script>
+</head>
+
+<body data-page="notas">
+  <header class="institutional-header">
+  <script src="../mock-api.js"></script>
+    <div class="institutional-header-wrap"><a class="institutional-brand" href="../dashboard/index.html"><img
+          src="../assets-estudiante/fiei_logo.png" alt="FIEI — Facultad de Ingeniería Electrónica e Informática"
+          width="949" height="263"></a></div>
+  </header>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-copy">
+          <p class="sidebar-title serif">SISCAD</p>
+          <p class="sidebar-welcome">Bienvenido, Mauricio Fonseca</p>
+        </div><button class="sidebar-toggle" id="sidebar-toggle" type="button" aria-expanded="true"
+          aria-controls="student-nav" aria-label="Contraer menú" title="Contraer menú"><svg viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            aria-hidden="true">
+            <path d="M19 12H5m7 7-7-7 7-7" />
+          </svg></button>
+      </div>
+      <nav class="side-nav" id="student-nav" aria-label="Principal">
+        <a data-page-link="dashboard" aria-label="Inicio" title="Inicio"><svg class="nav-icon" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+            aria-hidden="true">
+            <path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-6v-7h-4v7H4a1 1 0 0 1-1-1z" />
+          </svg><span class="nav-label">Inicio</span></a>
+        <a data-page-link="perfil" aria-label="Perfil" title="Perfil"><svg class="nav-icon" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+            aria-hidden="true">
+            <circle cx="12" cy="8" r="4" />
+            <path d="M5 21a7 7 0 0 1 14 0" />
+          </svg><span class="nav-label">Perfil</span></a>
+        <a data-page-link="cursos" aria-label="Cursos" title="Cursos"><svg class="nav-icon" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+            aria-hidden="true">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+          </svg><span class="nav-label">Cursos</span></a>
+        <a data-page-link="notas" aria-label="Notas" title="Notas"><svg class="nav-icon" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M8 6h13M8 12h13M8 18h13" />
+            <path d="M3 6h.01M3 12h.01M3 18h.01" />
+          </svg><span class="nav-label">Notas</span></a>
+        <a data-page-link="tramites" aria-label="Trámites" title="Trámites"><svg class="nav-icon" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+            aria-hidden="true">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+            <path d="M14 2v6h6M8 13h8M8 17h8" />
+          </svg><span class="nav-label">Trámites</span></a>
+        <a data-page-link="horario" aria-label="Horario" title="Horario"><svg class="nav-icon" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+            aria-hidden="true">
+            <rect x="3" y="4" width="18" height="17" rx="2" />
+            <path d="M16 2v4M8 2v4M3 10h18" />
+          </svg><span class="nav-label">Horario</span></a>
+      </nav>
+      <a class="sidebar-exit" href="../login/index.html" aria-label="Cerrar sesión" title="Cerrar sesión"><svg
+          viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+          <path d="M13 4h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6" />
+          <path d="m13 7-5 2v10l5 2z" />
+          <path d="M3 12h12m-4-4 4 4-4 4" />
+        </svg><span class="nav-label">Cerrar sesión</span></a>
+    </aside>
+    <main>
+      <header>
+  <script src="../mock-api.js"></script>
+        <h1>Mis notas</h1>
+      </header>
+      <div class="summary-grid" aria-label="Resumen de calificaciones">
+        <article class="summary-card"><span class="summary-label">Promedio actual</span><strong>14</strong></article>
+        <article class="summary-card"><span class="summary-label">Cursos aprobados</span><strong>5</strong></article>
+        <article class="summary-card"><span class="summary-label">Cursos desaprobados</span><strong>0</strong></article>
+      </div>
+      <section class="page-panel" aria-labelledby="grades-title">
+        <h2 id="grades-title">Libreta de notas</h2>
+        <p class="section-note">Los guiones indican evaluaciones aún no rendidas.</p>
+        <p class="section-note">Proyección con PP 40%, EP 30% y EF 30% para aprobar con 11 o más.</p>
+        <div class="table-wrap">
+          <table class="simple-table">
+            <thead>
+              <tr>
+                <th scope="col">Curso</th>
+                <th scope="col" class="numeric">PP</th>
+                <th scope="col" class="numeric">EP</th>
+                <th scope="col" class="numeric">EF</th>
+                <th scope="col" class="numeric">Promedio Final</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr data-pp="16" data-ep="10">
+                <th scope="row"><span class="course-name">Física</span></th>
+                <td class="numeric">16</td>
+                <td class="numeric">10</td>
+                <td class="numeric">–</td>
+                <td class="grade-pass">15</td>
+              </tr>
+              <tr data-pp="15" data-ep="18">
+                <th scope="row"><span class="course-name">Inglés II</span></th>
+                <td class="numeric">15</td>
+                <td class="numeric">18</td>
+                <td class="numeric">–</td>
+                <td class="grade-pass">11</td>
+              </tr>
+              <tr data-pp="13" data-ep="12">
+                <th scope="row"><span class="course-name">Sociología</span></th>
+                <td class="numeric">13</td>
+                <td class="numeric">12</td>
+                <td class="numeric">–</td>
+                <td class="grade-pass">16</td>
+              </tr>
+              <tr data-pp="14" data-ep="15">
+                <th scope="row"><span class="course-name">Liderazgo y desarrollo personal</span></th>
+                <td class="numeric">14</td>
+                <td class="numeric">15</td>
+                <td class="numeric">–</td>
+                <td class="grade-pass">11</td>
+              </tr>
+              <tr data-pp="15" data-ep="16">
+                <th scope="row"><span class="course-name">Medio ambiente y desarrollo sostenible</span></th>
+                <td class="numeric">15</td>
+                <td class="numeric">16</td>
+                <td class="numeric">–</td>
+                <td class="grade-pass">15</td>
+              </tr>
+              <tr data-pp="15" data-ep="14">
+                <th scope="row"><span class="course-name">Cálculo integral</span></th>
+                <td class="numeric">15</td>
+                <td class="numeric">14</td>
+                <td class="numeric">–</td>
+                <td>–</td>
+              </tr>
+              <tr data-pp="14" data-ep="8">
+                <th scope="row"><span class="course-name">Matemática discreta para informática</span></th>
+                <td class="numeric">14</td>
+                <td class="numeric">8</td>
+                <td class="numeric">–</td>
+                <td>–</td>
+              </tr>
+              <tr data-pp="15" data-ep="17">
+                <th scope="row"><span class="course-name">Tecnologías de la información y comunicación</span></th>
+                <td class="numeric">15</td>
+                <td class="numeric">17</td>
+                <td class="numeric">–</td>
+                <td>–</td>
+              </tr>
+              <tr class="total-row">
+                <th scope="row"><span class="course-name">TOTAL</span></th>
+                <td class="numeric">–</td>
+                <td class="numeric">–</td>
+                <td class="numeric">–</td>
+                <td>–</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </main>
+    <aside class="notification-panel" aria-labelledby="titulo-notificaciones">
+      <div>
+        <h2 id="titulo-notificaciones">Notificaciones</h2>
+        <p class="section-note" data-unread-count></p>
+        <ul class="notification-list">
+          <li data-new="true"><span class="unread-dot" aria-hidden="true"></span>
+            <div>
+              <p><strong>Se publicó la nota de PP en Física</strong></p>
+              <p class="subtle">Hace 2 horas</p>
+            </div>
+          </li>
+          <li data-new="true"><span class="unread-dot" aria-hidden="true"></span>
+            <div>
+              <p><strong>Ya puedes calcular tu EF pendiente en Cálculo integral</strong></p>
+              <p class="subtle">Hace 5 horas</p>
+            </div>
+          </li>
+          <li data-new="false"><span class="unread-dot read" aria-hidden="true"></span>
+            <div>
+              <p>Se publicó la proyección de EF para Matemática discreta</p>
+              <p class="subtle">Hace 2 días</p>
+            </div>
+          </li>
+          <li data-new="false"><span class="unread-dot read" aria-hidden="true"></span>
+            <div>
+              <p>Se actualizó tu libreta de notas del periodo 2026-II</p>
+              <p class="subtle">Hace 3 días</p>
+            </div>
+          </li>
+        </ul><a class="text-link" href="#">Ver todas las notificaciones</a>
+      </div>
+    </aside>
+  </div>
+  <script>
+    const gradeRows = Array.from(document.querySelectorAll(".simple-table tbody tr[data-pp]"));
+    let approvedCount = 0;
+    let failedCount = 0;
+
+    gradeRows.forEach((row) => {
+      const pp = Number(row.dataset.pp);
+      const ep = row.dataset.ep ? Number(row.dataset.ep) : 0;
+      const efCell = row.children[3];
+      const ef = efCell.textContent.trim();
+      const efNumber = ef === "–" ? 0 : Number(ef);
+      const finalAverage = Math.round(pp * 0.4 + ep * 0.3 + efNumber * 0.3);
+      const finalCell = row.children[4];
+      finalCell.textContent = String(finalAverage);
+      finalCell.className = finalAverage >= 11 ? "grade-pass" : "grade-review";
+
+      if (ef !== "–" && row.dataset.ep) {
+        if (finalAverage >= 11) {
+          approvedCount += 1;
+        } else {
+          failedCount += 1;
+        }
+      }
+
+      if (ef !== "–") return;
+
+      const requiredEf = (11 - pp * 0.4 - ep * 0.3) / 0.3;
+      const roundedEf = Math.ceil(requiredEf);
+      const badge = document.createElement("span");
+      badge.className = "projection-badge";
+
+      if (roundedEf > 20) {
+        badge.className += " impossible";
+        badge.textContent = "No alcanza";
+      } else if (roundedEf <= 0) {
+        badge.textContent = "+0";
+      } else {
+        badge.textContent = `+${roundedEf}`;
+      }
+
+      efCell.appendChild(badge);
+    });
+    document.querySelectorAll(".summary-grid .summary-card").forEach((card) => {
+      const label = card.querySelector(".summary-label")?.textContent;
+      const value = card.querySelector("strong");
+      if (label === "Cursos aprobados") value.textContent = String(approvedCount);
+      if (label === "Cursos desaprobados") value.textContent = String(failedCount);
+    });
+
+    const totalRow = document.querySelector(".simple-table tbody tr:last-child");
+    if (totalRow) {
+      let ppTotal = 0;
+      let epTotal = 0;
+      let efTotal = 0;
+      let courseCount = 0;
+
+      gradeRows.forEach((row) => {
+        const pp = Number(row.dataset.pp);
+        const ep = row.dataset.ep ? Number(row.dataset.ep) : 0;
+        const efText = row.children[3].textContent.trim();
+        const ef = efText.includes("–") ? 0 : Number(efText);
+
+        ppTotal += pp;
+        epTotal += ep;
+        efTotal += ef;
+        courseCount += 1;
+      });
+
+      if (courseCount > 0) {
+        const ppAverage = Math.round(ppTotal / courseCount);
+        const epAverage = Math.round(epTotal / courseCount);
+        const efAverage = Math.round(efTotal / courseCount);
+        const finalAverage = Math.round(ppAverage * 0.4 + epAverage * 0.3 + efAverage * 0.3);
+
+        totalRow.children[1].textContent = String(ppAverage);
+        totalRow.children[2].textContent = String(epAverage);
+        totalRow.children[3].textContent = String(efAverage);
+        totalRow.children[4].textContent = String(finalAverage);
+        totalRow.children[4].className = finalAverage >= 11 ? "grade-pass" : "grade-review";
+      }
+    }
+  </script>
+</body>
+
+</html>

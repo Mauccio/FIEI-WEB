@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <script src="../../mock-api.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>SISCAD | Perfil</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Schibsted+Grotesk:wght@600;700;800&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="page">
+
+    <div class="topbar">
+      <span class="unfv"><img src="img/unfv_logo.png" alt="Logo" width="300px"></span>
+      <span class="fiei"><img src="img/fiei_logo.png" alt="Logo" width="300px"></span>
+    </div>
+
+    <nav>
+      <button type="button" id="nav-home"><a href="../inicio/index.html">Inicio</a></button>
+      <button type="button" id="nav-profile"><a href="../perfil/index.html">Mi perfil</a></button>
+      <button type="button" id="nav-courses"><a href="../cursos/index.html">Mis cursos</a></button>
+      <button type="button" id="nav-notes"><a href="../notas/index.html">Mis notas</a></button>
+    </nav>
+
+    <main class="hero">
+      <div class="avatar" id="avatar" aria-hidden="true">
+        <img src="img/avatar.png" alt="Avatar">
+      </div>
+      <div class="who">
+        <p class="eyebrow" id="term-label">Cargando</p>
+        <h1 id="student-name">Estudiante</h1>
+        <p class="meta" id="student-meta"></p>
+        <p class="mail" id="student-email"></p>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

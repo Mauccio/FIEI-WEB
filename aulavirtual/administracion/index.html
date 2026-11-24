@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <script src="../mock-api.js"></script>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#6B1B2E">
+  <title>SISCAD | Administración académica</title>
+  <link rel="stylesheet" href="../estudiante.css"><link rel="stylesheet" href="administracion.css"><script src="administracion.js" defer></script>
+</head>
+<body data-page="inicio">
+  <header class="institutional-header">
+  <script src="../mock-api.js"></script><div class="institutional-header-wrap"><a class="institutional-brand" href="index.html"><img src="../assets-estudiante/fiei_logo.png" alt="FIEI — Facultad de Ingeniería Electrónica e Informática"></a><span class="portal-role">ADMINISTRACIÓN ACADÉMICA</span></div></header>
+  <div class="app-shell">
+    <aside class="sidebar"><div class="sidebar-header"><div class="sidebar-copy"><p class="sidebar-title serif">SISCAD</p><p class="sidebar-welcome">Administración</p></div><button class="sidebar-toggle" type="button" aria-expanded="true" aria-label="Contraer menú" title="Contraer menú"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5m7 7-7-7 7-7"/></svg></button></div>
+      <nav class="side-nav" aria-label="Principal"><a href="index.html" data-page="inicio"><span class="nav-icon">⌂</span><span class="nav-label">Inicio</span></a><a href="cursos.html" data-page="cursos"><span class="nav-icon">▤</span><span class="nav-label">Cursos y secciones</span></a><a href="cuentas.html" data-page="cuentas"><span class="nav-icon">♙</span><span class="nav-label">Cuentas</span></a></nav>
+      <a class="sidebar-exit" href="../login/index.html" aria-label="Cerrar sesión" title="Cerrar sesión"><span aria-hidden="true">↪</span><span class="nav-label">Cerrar sesión</span></a>
+    </aside>
+    <main id="inicio"><header>
+  <script src="../mock-api.js"></script><h1>Administración académica</h1><p class="page-intro">Organiza la oferta de cursos y las cuentas de la comunidad FIEI.</p></header>
+      <section class="summary-grid admin-summary" aria-label="Resumen académico"><article class="summary-card"><span class="summary-label">Secciones activas</span><strong data-total-courses>—</strong><span class="subtle">En todos los periodos</span></article><article class="summary-card"><span class="summary-label">Con docente asignado</span><strong data-assigned-courses>—</strong><span class="subtle">Responsable de calificaciones</span></article><article class="summary-card"><span class="summary-label">Docentes disponibles</span><strong data-total-teachers>—</strong><span class="subtle">Cuentas activas</span></article></section>
+      <p class="admin-feedback" data-feedback aria-live="polite"></p>
+      <section class="admin-panel admin-welcome"><p class="eyebrow">PANEL DE CONTROL</p><h2>Accesos rápidos</h2><div class="admin-shortcuts"><a href="cursos.html"><span class="nav-icon">▤</span><span><strong>Gestionar cursos y secciones</strong><small>Registrar cursos, asignar docentes y consultar matrículas.</small></span><span aria-hidden="true">→</span></a><a href="cuentas.html"><span class="nav-icon">♙</span><span><strong>Gestionar cuentas</strong><small>Administrar perfiles de docentes y estudiantes.</small></span><span aria-hidden="true">→</span></a></div></section>
+    </main>
+    <aside class="notification-panel admin-help"><h2>Flujo académico</h2><p class="section-note">Este panel prepara las secciones que usarán los demás perfiles.</p><ol class="admin-steps"><li>Administración registra el curso, periodo y sección.</li><li>Asigna al docente responsable.</li><li>La lista oficial de estudiantes se incorpora cuando esté disponible.</li><li>El docente registra y publica las notas.</li></ol></aside>
+  </div>
+</body></html>
